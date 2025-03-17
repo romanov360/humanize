@@ -7,6 +7,6 @@ import cli.Stdout
 import humanize.Bytes
 
 main! = |_|
-    computerized = 123456789
+    computerized = 1239871231
     humanized = Bytes.humanize(computerized)
     Stdout.line! humanized
