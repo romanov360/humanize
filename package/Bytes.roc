@@ -32,7 +32,7 @@ humanize = |bytes|
             unit_as_str = unit_to_str unit
             "${amount_as_str} ${unit_as_str}"
 
-        Err(_) -> "0 B"
+        _ -> "0 B"
 
 # Tests
 expect humanize 0 == "0 B"
